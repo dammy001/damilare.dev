@@ -114,6 +114,13 @@
         width: 100%;
         height: 800px;
         background-color: rgb(88, 31, 141);
+        .footer-items {
+            .row {
+                ul {
+                    font-size: 14px;
+                }
+            }
+        }
 
         .col-4 {
             margin-left: 60px;
