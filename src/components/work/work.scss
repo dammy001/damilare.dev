@@ -18,6 +18,11 @@
             -webkit-box-shadow: 2px 2px 2px 2px rgba(114, 113, 113, 0.116);
             transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
             -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            & :hover {
+                -webkit-transform: scale(1.0);
+                -ms-transform: scale(1.0);
+                transform: scale(1.0);
+            }
 
             .article{
                 h1 {
