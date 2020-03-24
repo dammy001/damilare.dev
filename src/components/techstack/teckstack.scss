@@ -1,0 +1,150 @@
+.stack {
+    
+    box-sizing: border-box;
+     .svg {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 32px;
+        max-width: 323px;
+        margin-top: 2em;
+        width: 100%;
+        
+        img {
+            width: 27%;
+            padding: 1em;
+            margin-bottom: -1em;
+            z-index: 5;
+            opacity: 6;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .stack {
+        .svg{
+            display: none;
+            width: 100%;
+            justify-content: left;
+            max-width: 150px;
+            min-height: 10px;
+            margin-left: -2em;
+            img {
+                width: 30%;
+                padding: 6px;
+            }
+        }
+    }
+    
+}
+
+/* .techstack {
+    width: 100%;
+    height: 605px;
+    background-color: #f5f4fc;
+    
+    .row {
+        justify-content: center; 
+        text-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+
+        .frontend {
+            box-sizing: border-box;
+            border-radius: 6px;
+            background-color: #fff;
+            display: flex;
+            margin-top: 4em;
+            list-style-type: none;
+            width: 75%;
+
+            .f {
+                border-style: solid;
+                border-width: 0 0.15rem 0 0;
+                border-color: rgba(72, 49, 212, 0.3);
+                padding: 6.95em;
+                display: list-item;
+                justify-content: left;
+                text-align: left;
+
+                .fstack {
+                    text-align: left;
+                    position: relative;
+                    margin-bottom: 4.5em;
+                    box-sizing: border-box;
+                    display: block;
+                    margin-top: -4em;
+                    justify-content: left;
+                    text-align: left;
+                    margin-left: -7em;
+
+                    h1 {
+                        font-size: 3.0em;
+                        margin: 0;
+                        font-weight: 700;
+                        line-height: 1.1;
+                        letter-spacing: -0.03em;
+                        color: #4831d4;
+                        transition: transform 0.5s, opacity 0.2s;
+                    }
+
+                    .svg {
+                        margin-top: 2em;
+                        width: 100%;
+
+                        img {
+                            width: 20%;
+                            margin-left: 2em;
+                            margin-bottom: 1.5em;
+                        }
+                    }
+                    
+                }
+            }
+
+            .b {
+                padding: 6.95em;
+                display: list-item;
+                justify-content: left;
+                text-align: left;
+               
+                .fstack {
+                    text-align: left;
+                    position: relative;
+                    margin-bottom: 4.5em;
+                    box-sizing: border-box;
+                    display: block;
+                    margin-top: -4em;
+                    justify-content: left;
+                    text-align: left;
+                    margin-left: -5em;
+                    
+                    h1 {
+                        font-size: 3.0em;
+                        margin: 0;
+                        font-weight: 700;
+                        line-height: 1.1;
+                        letter-spacing: -0.03em;
+                        color: #4831d4;
+                        transition: transform 0.5s, opacity 0.2s;
+                    }
+
+                    .svg {
+                        margin-top: 2em;
+                        width: 100%;
+                        img {
+                            width: 20%;
+                            margin-left: 2em;
+                        }
+                    }
+
+                   
+                }
+            }
+
+            
+        }
+    }
+}
+
+ */

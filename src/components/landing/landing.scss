@@ -1,0 +1,156 @@
+.mainpage{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    .container-fluid{
+        background-color: blueviolet;
+        height: 650px;
+        width: 100%;
+
+        .heading {
+            float: left;
+            margin-top: 10em;
+            margin-left: 7em;
+    
+            h3 {
+                font-size: 3.2em;
+                color: #ccf381;
+                font-weight: 900;
+                font-family: Arial, Helvetica, sans-serif;  
+            }
+            .description {
+                color: #ffffff;
+                font-weight: 500;
+                font-size: 17px;
+                margin-top: 30px;
+            }
+    
+            .btn-group {
+                display: none;
+                margin-top: 3em;
+                width: 70%;
+    
+                .learn {
+                    margin-left: 15px;
+                    border-radius: 5px;
+                    padding: 10px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: blueviolet;
+                    cursor: pointer;   
+                }
+                .getstarted {
+                    border-radius: 5px;
+                    padding: 5px;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+    
+            
+        }
+        .registerBtn {
+            margin-top: 6em;
+            margin-left: 1em;
+            width: 30em;
+    
+            .btn-primary {
+                width: 170px;
+                padding: 10px;
+                cursor: pointer;
+                border-radius: 6px;
+                font-size: 15px;
+                font-weight: 700;
+                border: none;
+                background-color: cadetblue;
+            }
+            .btn-primary:hover {
+                background-color: rgb(41, 41, 126);
+                transition: 1s ease-in-out;
+            }
+        }
+    }
+
+    .service {
+        margin-top: 0em;
+        margin-left: -30em;
+    }   
+}
+
+ @media (max-width: 640px){
+    .mainpage {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        .container-fluid {
+            background-color: #4831d4;
+            .col-7 {
+                margin-left: -7em;
+                margin-top: 1em;
+                justify-content: left;
+                justify-items: left;
+                text-align: left;
+                .heading{
+                    margin-top: 18em;
+                    text-align: left;
+                    justify-items: center;
+                    justify-content: center;
+                    display: grid;
+                    
+                    h3{
+                        font-size: 2.5em;
+                        text-align: center;
+                        margin-left: 1em;
+                    }
+                    .description {
+                        text-align: left;
+                        margin-top: -1px;
+                        font-size: 17px;
+                        margin-left: 4em;
+                        
+                    }
+
+                    .btn-group{
+                        display: flex;
+                        width: 100%;
+                        height: 35px;;
+                        margin-top: -0.1em;
+                        justify-content: center;
+                        justify-items: center;
+                        margin-left: 2em;
+
+                        .learn {
+                            margin-left: 15px;
+                            border-radius: 5px;
+                            padding: 4px;
+                            font-weight: 500;
+                            font-size: 10px;
+                            color: blueviolet;
+                            cursor: pointer;   
+                        }
+                        .getstarted {
+                            border-radius: 5px;
+                            padding: 5px;
+                            font-weight: 500;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .col-4 {
+                margin-top: 2em;
+                .registerBtn {
+                    margin-left: -7em;
+                    
+                    justify-content: center;
+                    justify-items: center;
+                    img{
+                        margin-top: -3em;
+                        width: 55%
+                    }
+                }
+            }
+            
+        }
+}
+}

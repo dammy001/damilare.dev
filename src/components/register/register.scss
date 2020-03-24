@@ -1,0 +1,146 @@
+@use 'sass:map';
+
+$colors: (
+    "primary": blueviolet,
+    "google": rgb(192, 82, 82),
+    "facebook": rgb(41, 41, 126),
+    "error": red,
+);
+
+@media only screen and (max-device-width: 480px) {
+    .containerRegister {
+      width: 200px;
+    }
+  }
+
+.containerRegister {
+    width: 400px;
+    height: 620px;
+    border-radius: 10px;
+    background: white;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 4%;
+    box-sizing: border-box;
+
+    .error {
+        font-size: 13px;
+        color: map-get($map: $colors, $key: "error");
+        margin-top: -5px;
+        float: left;
+    }
+    .login {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        color: mediumslateblue;
+        margin-top: 40px;
+    }
+
+    .loginContainer {
+        padding: 20px;
+
+        input[type=text] {
+            width: 100%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 15px;
+            
+        }
+
+        input[type=text]:hover {
+            transition: 1s ease-in-out;
+            padding: 15px;
+            background-color: gainsboro;
+        }
+        
+        input[type=text]:focus {
+            border-color: #dee5e7;
+            border-radius: 5px;
+        }
+        
+        input[type=password] {
+            width: 100%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 15px;  
+        }
+
+        input[type=password]:hover {
+            transition: 1s ease-in-out;
+            padding: 15px;
+            background-color: gainsboro;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            background-color: map-get($map: $colors, $key: "primary");
+            color: white;
+            padding: 15px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: none;
+            line-height: 1.42857143;
+            text-align: center;
+        }
+
+        input[type=submit]:hover {
+            background-color: darkslateblue;
+            color: white;
+            transition: 1s ease-in-out;
+        }
+    }
+
+    .others {
+        margin-top: 20px;
+
+        .google {
+            width: 100%;
+            background-color: map-get($map: $colors, $key: "google");
+            color: white;
+            padding: 15px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: none;
+            line-height: 1.42857143;
+            text-align: center;
+        }
+        .facebook {
+            width: 100%;
+            background-color: map-get($map: $colors, $key: "facebook");
+            color: white;
+            padding: 15px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: none;
+            line-height: 1.42857143;
+            text-align: center;
+            margin-top: -3px;
+        }
+    }
+}
