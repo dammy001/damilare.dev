@@ -1,7 +1,7 @@
 .experience {
     width: 100%;
     height: 605px;
-    background-color: #4831d4;
+    background-color: blueviolet;
     
     .exp-heading{
         float: left;
@@ -13,6 +13,13 @@
             color: #ccf381;
             font-weight: 900;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+        }
+
+        .description {
+            color: #fff;
+            font-size: 1em;
+            line-height: 1.6;
+            text-align: left;
         }
     }
 }
