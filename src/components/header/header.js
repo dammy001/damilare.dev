@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
+import { useLocation } from 'react-router-dom';
 
 import {
     Link
@@ -25,7 +26,11 @@ class Header extends Component {
                 <Link className="nav-link link" to={"/work"}>Work</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link link" to={"/business"}>Resume</Link>
+                <a className="resume" href={`https://gitconnected.com/dammy001/resume`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Resume</a>
+                
               </li>
               <li className="nav-item">
                 <Link className="nav-link link" to={"/blog"}>Blog</Link>

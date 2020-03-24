@@ -2,15 +2,11 @@ import React, { Component } from 'react';
 import { validate } from 'indicative/validator';
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
-import axios from 'axios' ;
+//import axios from 'axios' ;
   
 import './register.scss';
-import Login from '../login/login';
-
 class Register extends Component {
 
     constructor(props){
