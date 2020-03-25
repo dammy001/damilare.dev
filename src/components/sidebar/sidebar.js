@@ -1,29 +1,44 @@
 import React, { Component } from 'react';
-import Sidebar from 'react-sidebar';
+import './sidebar.scss';
 
 class Side extends Component {
     constructor(props){
         super(props)
         this.state = {
-            sidebarOpen: true
+            active: false
         }
-        this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this)
+        this.toggleClass = this.toggleClass.bind(this);
     }
-
-    onSetSidebarOpen(open){
-        this.setState({ sidebarOpen: open })
+    toggleClass() {
+        const currentState = this.state.active;
+        this.setState({ active: !currentState });
+        console.log(this.state.active)
     }
 
     render() {
         return (
-            <Sidebar
-                sidebar={<b>Sidebar Content</b>}
-                open={this.state.sidebarOpen}
-                onSetOpen={this.onSetSidebarOpen}
-                styles={{ sidebar: { background: "black", color: "white" }}}
-            >
-                <button onClick={() => this.onSetSidebarOpen(true)}>sidebar</button>
-            </Sidebar>
+            
+         <div className={this.state.active===true ? 'nav-aside active' : 'nav-aside'}>
+          <ul className="nav-aside-menu">
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Blog</a></li>
+            <li></li>
+            <li><h5>SAY HELLO</h5></li>
+            <li><a href="#">damilareanjorin1@gmail.com</a></li>
+            <li><a href="#">t.me/damilare</a></li>
+            <li>
+                <div className="btn-group">
+                  <button type="button" className="btn btn-primary facebook"><i className="fa fa-facebook"></i></button>
+                  <button type="button" className="btn btn-primary linkedin"><i className="fa fa-linkedin"></i></button>
+                  <button type="button" className="btn btn-primary twitter"><i className="fa fa-twitter"></i></button>
+                  <button type="button" className="btn btn-primary github"><i className="fa fa-github"></i></button>
+                </div> 
+            </li>
+  
+          </ul>
+          <button className="nav-close nav-aside-close"><span></span></button>
+        </div>
         )
     }
 }
