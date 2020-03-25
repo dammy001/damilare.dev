@@ -32,7 +32,11 @@ class Footer extends Component {
                         <div className="col-4">
                             <ul>
                                 <li><Link to='/work' className="link">Work</Link></li>
-                                <li>My Resume</li>
+                                <li><a className="link" href={`https://gitconnected.com/dammy001/resume`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >Resume</a>
+                                </li>
                                 <li><Link to='/blog' className="link">Blog</Link></li>
                             </ul>
                         </div>

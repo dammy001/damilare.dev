@@ -25,18 +25,19 @@ class Workdetails extends Component {
                         <p>Projects I've worked on in the past</p>
                     </FadeDiv>
                 </div>
-                <FlipDiv>
+                
+                
                 <div className="collection">
                     <div className="row">
                     
                         <div className="col-4">
-                            <div className="card"> 
+                        <FlipDiv><div className="card"> 
                                 <img className="card-img-top" src={angular} />
                                 <div className="card-body">
                                     <h4>Personal Website</h4>
                                     <p className="card-text"><Link className="card-text" to={"https://damilare.dev"}>Damilare.dev</Link></p>
                                 </div>
-                            </div>
+                            </div></FlipDiv>
                         </div>
                         
                         <div className="col-4">
@@ -48,6 +49,7 @@ class Workdetails extends Component {
                                 </div>
                             </div>
                         </div>
+                        
                         
                         <div className="col-4">
                             <div className="card">
@@ -87,7 +89,7 @@ class Workdetails extends Component {
                         </div>
                     </div>
                 </div>
-                </FlipDiv>
+                
             </div>
             <Footer />
         </div>
