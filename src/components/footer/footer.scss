@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: 605px;
-    background-color: rgb(88, 31, 141);
+    background-color: #222;
 
     .footer-items {
         color: white;
@@ -27,7 +27,7 @@
             line-height: 2.5em;
             margin-left: -14px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #ccf381;
+            color: #fff;
 
             @media (max-width: 640px) {
                 margin-left: -150px;
@@ -40,23 +40,23 @@
                 text-decoration-style: none;
                 .link {
                     text-decoration: none;
-                    color: #ccf381;
+                    color: #fff;
                 }
             }
         }
 
         .footer-bottom {
             margin-top: 8em;
-            border-top: 1px solid #ccf381;
+            border-top: 1px solid #fff;
             width: 80%;
             
             .col-5 {
                 margin-top: 70px;
                 font-size: 20px;
-                color: #ccf381;
+                color: #fff;
             }
             .col-7 {
-                margin-top: 70px;
+                margin-top: 10px;
                 .btn-group {
                     margin-left: 350px;
                     .facebook {

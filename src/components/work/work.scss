@@ -1,7 +1,7 @@
 .work {
     width: 100%;
     height: 605px;
-    background-color: #f5f4fc;
+    background-color: #000;
 
     .build {
             box-sizing: border-box;
@@ -10,14 +10,10 @@
             margin-top: 4em;
             list-style-type: none;
             margin-left: 5em;
-            background-color: white;
+            background-color: transparent;
             padding: 4em;
             margin-bottom: 4em;
-            box-shadow: 2px 2px 2px 2px rgba(114, 113, 113, 0.116);
-            -moz-box-shadow: 2px 2px 2px 2px rgba(114, 113, 113, 0.116);
-            -webkit-box-shadow: 2px 2px 2px 2px rgba(114, 113, 113, 0.116);
-            transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-            -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            
             & :hover {
                 -webkit-transform: scale(1.0);
                 -ms-transform: scale(1.0);
@@ -26,28 +22,29 @@
 
             .article{
                 h1 {
-                    font-size: 3.0em;
+                    font-size: 2.6em;
                         margin: 0;
                         font-weight: 700;
                         line-height: 1.1;
                         letter-spacing: -0.03em;
-                        color: #4831d4;
+                        color: #ddd;
                         transition: transform 0.5s, opacity 0.2s;
+                        text-transform: uppercase;
                 }
                 p {
                     font-size: 1.3em;
                     line-height: 1.6;
-                    color: #3d155f;
+                    color: #fff;
                     margin-top: 1em;
                 }
                 .send {
                     margin-top: 2.5em;
                     padding: 15px;
                     width: 50%;
-                    background-color: transparent;
-                    border: 1px solid #4831d4;
+                    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+                    border: none;
                     border-radius: 0px;
-                    color: #4831d4;
+                    color: #ffffff;
                     letter-spacing: 0.1em;
                     text-transform: uppercase;
                     font-size: 0.9em;
@@ -59,10 +56,6 @@
                         color: #ffffff;
                         border: none;
                         -webkit-font-smoothing: antialiased !important;
-                        /* -webkit-transform: scale(1.2);
-                        -ms-transform: scale(1.2);
-                        transform: scale(1.2); */
-                        //transform: translateX(1.2);
                     }
                 }
             }       
@@ -72,31 +65,27 @@
         box-sizing: border-box;
             border-radius: 6px;
             display: flex;
-            margin-top: 9em;
+            margin-top: 4em;
             list-style-type: none;
             margin-left: 5em;
-            background-color: white;
+            background-color: transparent;
             padding: 4em;
-            box-shadow: 2px 2px 2px 2px rgba(114, 113, 113, 0.116);
-            -moz-box-shadow: 2px 2px 2px 2px rgba(114, 113, 113, 0.116);
-            -webkit-box-shadow: 2px 2px 2px 2px rgba(114, 113, 113, 0.116);
-            transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-            -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-
+            
             .article{
                 h1 {
-                    font-size: 3.0em;
+                    font-size: 2.6em;
                         margin: 0;
                         font-weight: 700;
                         line-height: 1.1;
                         letter-spacing: -0.03em;
                         color: #4831d4;
                         transition: transform 0.5s, opacity 0.2s;
+                        text-transform: uppercase;
                 }
                 p {
                     font-size: 1.3em;
                     line-height: 1.6;
-                    color: #3d155f;
+                    color: #fff;
                     margin-top: 1em;
                 }
                 .send {
@@ -124,7 +113,7 @@
 }
 
 .workdetails {
-    background-color: #f5f4fc;
+    background-color: #181818;
     margin: 0;
     padding: 0;
 
@@ -135,14 +124,14 @@
         
         h3 {
             padding-top: 5em;
-            color: #474747;
+            color: #fff;
             font-weight: 700;
             font-size: 1.802em;
             line-height: 1.15;
             transition: color 0.6s ease 0s;
         }
         p {
-            color: #474747;
+            color: #fff;
             font-size: 1.3em;
             font-weight: 400;
         }
@@ -153,10 +142,11 @@
         margin-top: -3em;
         
         .card {
-            background-color: #f5f4fc;
+            box-shadow: 0 20px 25px -2px rgba(0,0,0,.4);
+            background: linear-gradient(180deg,#181818 0,#222 100%);
             margin-bottom: 1.1em;
             box-sizing: border-box;
-            border: 1px solid #f5f4fc;
+            
             &:hover {
                 box-shadow: 1px 1px 1px 1px rgba(114, 113, 113, 0.116);
                 -moz-box-shadow: 1px 1px 1px 1px rgba(114, 113, 113, 0.116);
@@ -168,11 +158,11 @@
                 padding: 3em;
             }
             .card-body {
-                background-color: white;
+                //background-color: white;
                 padding: 2.5em;
 
                 h4 {
-                    color: #474747;
+                    color: #fff;
                     font-weight: 600;
                 }
                 .card-text {

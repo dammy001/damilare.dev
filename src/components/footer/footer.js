@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../../node_modules/font-awesome/css/font-awesome.min.css';
 import './footer.scss';
 import { Link } from 'react-router-dom';
+import WOW from 'wowjs';
 
 class Footer extends Component {
 
@@ -18,9 +19,13 @@ class Footer extends Component {
         window.location = 'https://github.com/dammy001';
     }
 
+    componentDidMount(){
+        new WOW.WOW().init();
+    }
+
     render() {
         return <div className="footer">
-                <div className="footer-items">
+                <div className="wow slideInUp footer-items" data-wow-offset="70" data-wow-delay="1s">
                     <h5>Say Hello</h5>
                     <div className="row">
                         <div className="col-4">

@@ -4,6 +4,7 @@ import { fadeInDown, bounceIn } from 'react-animations';
 import Footer from '../footer/footer';
 import { Link } from 'react-router-dom';
 import './blog.scss';
+import WOW from 'wowjs';
 
 const fadeAnimation = keyframes`${fadeInDown}`;
 const flipAnimation = keyframes`${bounceIn};`
@@ -13,6 +14,9 @@ const FadeDiv = styled.div`
 `;
 
 class Blog extends Component {
+    componentDidMount(){
+        new WOW.WOW().init();
+    }
     render(){
         return <div className="blog">
             <div className="container-fluid">
@@ -23,7 +27,7 @@ class Blog extends Component {
                     </FadeDiv>
                 </div>
 
-                <div className="article">
+                <div className="wow slideInUp article" data-wow-delay="0.5">
                     <div className="date">
                         <h5>20th January, 2020</h5>
                     </div>
@@ -33,17 +37,17 @@ class Blog extends Component {
                     </div>
                 </div>
 
-                <div className="article">
+                <div className="wow slideInUp article" data-wow-delay="1s">
                     <div className="date">
                         <h5>20th January, 2020</h5>
                     </div>
-                    <div className="title">
+                    <div className="wow slideInUp title" data-wow-delay="1.5s">
                         <h3>Authentication Using MERN Stack</h3>
                         <p>Authentication is used to validate and authorize user before gaining access to a page.</p>
                     </div>
                 </div>
 
-                <div className="article last">
+                <div className="wow slideInUp article last" data-wow-delay="1.8s">
                     <div className="date">
                         <h5>20th January, 2020</h5>
                     </div>

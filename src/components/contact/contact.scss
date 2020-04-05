@@ -5,18 +5,18 @@
     text-align: center;
     align-items: center;
     -webkit-box-pack: center;
-    background-color: #f5f4fc;
+    background-color: #000;
 
     .header{ 
         margin-top: 6em;
         h3 {
             font-size: 2.5em;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: #4831d4;
+            color: #fff;
         }
         p{
             font-size: 17px;
-            color: blueviolet;
+            color: #fff;
         }
     }
     .formcontact {
@@ -24,10 +24,16 @@
         margin-top: 5em;
         justify-items: left;
         justify-content: left;
-
+        .error {
+            font-size: 12px;
+            color: #4831d4;
+            margin-top: 1em;
+            float: left;
+        }
         label { 
             margin-left: -14em;
             font-weight: 200;
+            color: #fff;
         }
         .emailwrapper{
             margin-top: -5.4em;
@@ -35,9 +41,11 @@
         }
         .name {
             border: none;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #fff;
             border-radius: 0px;
-            background-color: #f5f4fc;
+            color: #fff;
+            background-color: transparent;
+            color: blueviolet;
             &:focus {
                 border: none;
                 border-bottom: 1px solid blueviolet;
@@ -46,9 +54,10 @@
         }
         .email {
             border: none;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #fff;
             border-radius: 0px;
-            background-color: #f5f4fc;
+            background-color: transparent;
+            color: blueviolet;
             &:focus {
                 border: none;
                 border-bottom: 1px solid blueviolet;
@@ -62,10 +71,11 @@
             }
             .message {
                 border: none;
-                border-bottom: 1px solid grey;
+                border-bottom: 1px solid #fff;
                 border-radius: 0px;
                 width: 92%;
-                background-color: #f5f4fc;
+                color: blueviolet;
+                background-color: transparent;
                 &:focus {
                     border: none;
                     border-bottom: 1px solid blueviolet;
@@ -79,20 +89,15 @@
             margin-left: -5em;
             padding: 15px;
             width: 30%;
-            background-color: transparent;
-            border: 1px solid #4831d4;
+            background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+            border: none;
             border-radius: 0px;
-            color: #4831d4;
+            color: #fff;
             letter-spacing: 0.1em;
             text-transform: uppercase;
             font-size: 0.9em;
             box-sizing: border-box;
-            &:hover {
-                transform-origin: left;
-                background-color: #4831d4;
-                color: #ffffff;
-                border: none;
-            }
+            
         }
         
     }

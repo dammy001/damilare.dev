@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './work.scss';
-import styled, { keyframes } from 'styled-components';
-import { fadeInLeft } from 'react-animations';
-
-const FlipIn = styled.div`animation: 4s ${keyframes `${fadeInLeft}`}`;
+import WOW from 'wowjs';
 
 class Work extends Component {
+
+    componentDidMount() {
+        new WOW.WOW().init();
+    }
     render() {
         return <div className="work">
-            <FlipIn><div className="row">
+            <div className="wow slideInUp row" data-wow-offset="90" data-wow-delay="0.5s">
                <div className="col-5 build">
                     <div className="article">
                         <h1>I build & design stuff</h1>
@@ -25,7 +26,7 @@ class Work extends Component {
                         <Link to='/blog' className="btn btn-primary send">Read my articles</Link>
                     </div>
                 </div>
-            </div></FlipIn>
+            </div>
         </div>
     }
 }
