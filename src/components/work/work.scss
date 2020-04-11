@@ -1,6 +1,6 @@
 .work {
     width: 100%;
-    height: 605px;
+    min-height: 605px;
     background-color: #000;
 
     .build {
@@ -178,9 +178,6 @@
 @media (max-width: 640px) {
     .work {
         width: 100%;
-        min-height: 605px;
-        background-color: #f5f4fc;
-
         .build {
             box-sizing: border-box;
             border-radius: 6px;
@@ -188,7 +185,7 @@
             margin-top: 2em;
             list-style-type: none;
             margin-left: 1.5em;
-            background-color: white;
+            background-color: transparent;
             padding: 2em;
             
             //margin-bottom: 4em;
@@ -199,23 +196,24 @@
                         font-weight: 600;
                         line-height: 1.1;
                         letter-spacing: -0.03em;
-                        color: #4831d4;
+                        color: white;
                         transition: transform 0.5s, opacity 0.2s;
                         margin-top: -0.8em
                 }
                 p {
                     font-size: 0.8em;
                     line-height: 1.6;
-                    color: #3d155f;
+                    color: white;
                     margin-top: 1em;
                 }
                 .send {
                     margin-top: 1em;
                     padding: 15px;
                     width: 100%;
-                    background-color: transparent;
-                    border: 1px solid #4831d4;
-                    color: #4831d4;
+                    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+                    border: none;
+                    border-radius: 0px;
+                    color: #ffffff;
                     letter-spacing: 0.1em;
                     text-transform: uppercase;
                     font-size: 0.6em;
@@ -237,7 +235,7 @@
                 margin-top: -2.3em;
                 list-style-type: none;
                 margin-left: 9em;
-                background-color: white;
+                background-color: transparent;
                 padding: 2em;
     
                 .article{
@@ -254,7 +252,7 @@
                     p {
                         font-size: 0.8em;
                         line-height: 1.6;
-                        color: #3d155f;
+                        color: white;
                         margin-top: 1em;
                     }
                     .send {

@@ -145,11 +145,13 @@
     transform: translateY(-2px) rotate(135deg);
   }
 
-  /* @media (max-width: 640px) {
-    .nav-side.active {
-        padding-left: 6em;
-        -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        transform: translateX(0%);
+   @media (max-width: 640px) {
+
+    .nav-aside {
+        padding-left: -20em;
+
+        .nav-aside.active {
+          padding-right: 10em;
+      }
     }
-} */
+} 

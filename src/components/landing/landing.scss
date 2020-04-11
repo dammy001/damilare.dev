@@ -5,7 +5,7 @@
     padding: 0;
     .container-fluid{
         background-color: #222;
-        height: 650px;
+        min-height: 650px;
         width: 100%;
 
         .heading {
@@ -100,7 +100,6 @@
         margin: 0;
         padding: 0;
         .container-fluid {
-            background-color: #4831d4;
             .col-7 {
                 margin-left: -7em;
                 margin-top: 1em;
@@ -142,7 +141,6 @@
                             padding: 4px;
                             font-weight: 500;
                             font-size: 10px;
-                            color: blueviolet;
                             cursor: pointer;   
                         }
                         .getstarted {
