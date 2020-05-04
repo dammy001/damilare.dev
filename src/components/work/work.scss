@@ -1,13 +1,13 @@
 .work {
     width: 100%;
     min-height: 605px;
-    background-color: #000;
+    background-color: #212121;
 
     .build {
             box-sizing: border-box;
             border-radius: 6px;
             display: flex;
-            margin-top: 4em;
+            margin-top: 5em;
             list-style-type: none;
             margin-left: 5em;
             background-color: transparent;
@@ -62,12 +62,12 @@
     }
 
     .write {
-        box-sizing: border-box;
+            box-sizing: border-box;
             border-radius: 6px;
             display: flex;
-            margin-top: 4em;
+            margin-top: 5em;
             list-style-type: none;
-            margin-left: 5em;
+            //margin-left: 5em;
             background-color: transparent;
             padding: 4em;
             
@@ -182,9 +182,9 @@
             box-sizing: border-box;
             border-radius: 6px;
             display: flex;
-            margin-top: 2em;
+            margin-top: 4em;
             list-style-type: none;
-            margin-left: 1.5em;
+            margin-left: 0.5em;
             background-color: transparent;
             padding: 2em;
             
@@ -232,11 +232,11 @@
             box-sizing: border-box;
                 border-radius: 6px;
                 display: flex;
-                margin-top: -2.3em;
                 list-style-type: none;
-                margin-left: 9em;
                 background-color: transparent;
                 padding: 2em;
+               // margin-left: 1.5em;
+                margin-top: -3em;
     
                 .article{
                     h1 {

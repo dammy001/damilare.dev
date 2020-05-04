@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import './landing.scss';
-import mainlogo from './mainlogo.svg';
-import Button from './buttons';
+import logo from '../images/dev4.svg';
+import ButtonClass from './buttons';
 import Experience from '../experience/experience';
 import Work from '../work/work';
 import Message from '../contact/contact';
 import Footer from '../footer/footer';
 import WOW from 'wowjs';
+import { Container, Row, Col, Image } from 'react-bootstrap'
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 
 class Landing extends Component {
 
@@ -16,31 +17,36 @@ class Landing extends Component {
     
     render() {
         return <div className="mainpage">
-                <div class="container-fluid">
-                    <div className="row">
-                    <div className="wow slideInUp col-7" data-wow-offset="70" data-wow-delay="0.5s">
+            <Container fluid className="header">
+                <Row>
+                    <Col md={6} sm={4}>
+                        <div className="wow slideInUp" data-wow-offset="70" data-wow-delay="0.5s">
                             <div className="heading">  
                                 <h3>Fullstack Web Developer.</h3>
                                 <p className="description">Damilare Anjorin is an energetic, creative, and result oriented fullstack developer with proven track records based in Lagos, Nigeria.</p>                                
-                                <Button />
+                                <ButtonClass />
                             </div>
                         </div>
-                        
-                        <div className="wow bounceIn col-4" data-wow-offset="70" data-wow-delay="1s">
-                            <div className="registerBtn">
-                                <img src={mainlogo} alt="Delicacy" />
-                            </div>  
-                        </div>
-                    </div>      
-                </div>
+                    </Col>
+                    <Col md={1}></Col>
+                    <Col md={5}>
+                        <Image className="image" src={logo} alt="Delicacy" fluid />
+                    </Col>
+                </Row>
+            </Container>
 
-                <Work />
+            <Experience />
 
-                <Experience />
+            <Work />
+
+            <ScrollUpButton />
+                {/* 
+
+                
 
                 <Message />
 
-                <Footer />
+                <Footer /> */}
             </div>
     }
 }

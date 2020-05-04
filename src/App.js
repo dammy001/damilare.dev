@@ -8,8 +8,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Login from './components/login/login';
-import Register from './components/register/register';
+
 import Workdetails from './components/work/workdetails';
 import Landing from './components/landing/landing';
 import Blog from './components/Blog/blog';
@@ -26,8 +25,6 @@ function App() {
         
       <Switch>
         <Route exact path='/' component={Landing} />
-        <Route path="/login" component={Login} />
-        <Route path="/register" component={Register} />
         <Route path="/work" component={Workdetails} />
         <Route path="/resume" component={Resume} />
         <Route path="/blog" component={Blog} />

@@ -1,12 +1,13 @@
 import React from 'react';
+import { Button } from 'react-bootstrap'
 
-const Button = () => {
+const ButtonClass = () => {
     return (
         <div className="btn-group">
-            <button type="button" className="btn btn-primary btn-lg getstarted">My Work</button>
-            <button type="button" className="btn btn-light btn-lg learn">My Resume</button>
+            <Button type="button" className="btn btn-primary btn-lg getstarted">My Work</Button>
+            <Button type="button" className="btn btn-light btn-lg learn">My Resume</Button>
         </div>
     )
 }
 
-export default Button
+export default ButtonClass
