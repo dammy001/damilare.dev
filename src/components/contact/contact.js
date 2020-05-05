@@ -1,9 +1,30 @@
 import React, { Component } from 'react';
 import { validate } from 'indicative/validator';
 import axios from 'axios';
-import './contact.scss';
+import styled from 'styled-components';
 import WOW from 'wowjs';
-import { Container, Row, Col, Button, Form } from 'react-bootstrap'
+import { Container, Row, Col, Form } from 'react-bootstrap'
+
+const Button = styled.button`
+
+    display: ${props => props.block ? "block" : "none"};
+    color: white;
+    font-size: 1em;
+    width: 93%;
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    margin: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 13px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+`;
+
+const Label = styled.label`
+    float: left;
+    color: #fff;
+`;
 
 class Message extends Component {
 
@@ -80,47 +101,46 @@ class Message extends Component {
 
     render() {
         return <div className="messageme">
-            <Container fluid>
+            <Container>
                 <Row>
-                    <Col md={4}></Col>
-                    <Col md={7}>
-                        <Row>  
-                            <div className="head">
-                                <h3>Send me a message!</h3>
-                                <p>Got a question or project for me? Go ahead.</p>
-                            </div>
-                        </Row>
-                        <Row>
-                            <div ClassName="formcontact">
-                            <Form>
-                                <Form.Row>
-                                <Form.Group as={Col} controlId="formGridEmail">
-                                    <Form.Label className="label">Email</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email" />
-                                </Form.Group>
+                    <Col md={3}></Col>
+                    <Col md={6} sm={2}>
+                        <div className="head">
+                            <h3>Send me a message!</h3>
+                            <p>Got a question or project for me? Go ahead.</p>
+                        </div>
+
+                        
+                        <div ClassName="formcontact" style={{marginTop: '4em'}}>
                             
-                                <Form.Group as={Col} controlId="formGridPassword">
-                                    <Form.Label className="label">Password</Form.Label>
-                                    <Form.Control type="password" placeholder="Password" />
-                                </Form.Group>
-                                </Form.Row>
-                            
-                                <Form.Group controlId="exampleForm.ControlTextarea1">
-                                <Form.Label className="label">Message</Form.Label>
-                                <Form.Control as="textarea" rows="3" />
-                                </Form.Group>
-                            
-                                <Button variant="primary" type="submit" block>
-                                    Submit
-                                </Button>
-                            </Form>
-                            </div>
-                        </Row>
+                        <Form>
+                           <Form.Row>
+                           <Form.Group as={Col} controlId="formGridName">
+                               <Label><label>Your Name</label></Label>
+                               <Form.Control type="text" placeholder="Enter Your Name" />
+                           </Form.Group>
                        
+                           <Form.Group as={Col} controlId="formGridEmail">
+                                <Label><label>Your Email</label></Label>
+                               <Form.Control type="email" placeholder="Enter Your Email" />
+                           </Form.Group>
+                           </Form.Row>
+                       
+                           <Form.Group controlId="exampleForm.ControlTextarea1">
+                           <Label><label>Message</label></Label>
+                           <Form.Control as="textarea" rows={4} placeholder="Send me a message, let's discuss"/>
+                           </Form.Group>
+                       
+                           <Button block>
+                           <i className="fa fa-arrow-right"></i> Shoot Me
+                           </Button>
+                        </Form> 
+                       </div>
+                        
                     </Col>
-                    <Col md={1}></Col>
                 </Row>
             </Container>
+           
            {/*  <div className="row">
                 <div className="col-2"></div>
                 <div className="col-8">

@@ -41,15 +41,11 @@ class Landing extends Component {
             
             <Contact />
 
+            <Footer />
+
             <ScrollUpButton />
-                {/* 
-
-                
-
-                <Message />
-
-                <Footer /> */}
-            </div>
+               
+        </div>
     }
 }
 
