@@ -22,7 +22,7 @@ class Landing extends Component {
                     <Col md={6} sm={4}>
                         <div className="wow slideInUp" data-wow-offset="70" data-wow-delay="0.5s">
                             <div className="heading">  
-                                <h3>Fullstack Web Developer.</h3>
+                                <h3><span>Fullstack</span> Web Developer.</h3>
                                 <p className="description">Damilare Anjorin is an energetic, creative, and result oriented fullstack developer with proven track records based in Lagos, Nigeria.</p>                                
                                 <ButtonClass />
                             </div>

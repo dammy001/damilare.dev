@@ -3,8 +3,8 @@ import styled, { keyframes } from 'styled-components';
 import { fadeInDown, bounceIn } from 'react-animations';
 import Footer from '../footer/footer';
 import { Link } from 'react-router-dom';
-import './blog.scss';
 import WOW from 'wowjs';
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 
 const fadeAnimation = keyframes`${fadeInDown}`;
 const flipAnimation = keyframes`${bounceIn};`
@@ -32,12 +32,12 @@ class Blog extends Component {
                         <h5>20th January, 2020</h5>
                     </div>
                     <div className="title">
-                        <h3>Authentication Using MERN Stack</h3>
+                        <h3><Link>Authentication Using MERN Stack</Link></h3>
                         <p>Authentication is used to validate and authorize user before gaining access to a page.</p>
                     </div>
                 </div>
 
-                <div className="wow slideInUp article" data-wow-delay="1s">
+                {/*<div className="wow slideInUp article" data-wow-delay="1s">
                     <div className="date">
                         <h5>20th January, 2020</h5>
                     </div>
@@ -47,7 +47,7 @@ class Blog extends Component {
                     </div>
                 </div>
 
-                <div className="wow slideInUp article last" data-wow-delay="1.8s">
+                 <div className="wow slideInUp article last" data-wow-delay="1.8s">
                     <div className="date">
                         <h5>20th January, 2020</h5>
                     </div>
@@ -55,8 +55,10 @@ class Blog extends Component {
                         <h3>Authentication Using MERN Stack</h3>
                         <p>Authentication is used to validate and authorize user before gaining access to a page.</p>
                     </div>
-                </div>
+                </div> */}
             </div>
+
+            <ScrollUpButton />
 
             <Footer />
         </div>

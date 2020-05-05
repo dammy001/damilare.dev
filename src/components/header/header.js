@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
 import { Navbar, Button, Nav } from 'react-bootstrap'
+import { Link, Redirect } from 'react-router-dom'
 
 const Bounce = styled.div`animation: 2s ${keyframes `${bounce}`}`;
 
@@ -37,11 +38,11 @@ class Header extends Component {
 
       <div className={this.state.active===true ? 'nav-aside active' : 'nav-aside'}>
           <ul className="nav-aside-menu">
-            <li><a href="/work">Work</a></li>
+            <li><Link to='/work' className="link">Work</Link></li>
             <li><a href="https://gitconnected.com/dammy001/resume" target="_blank" 
             rel="noopener noreferrer">Resume</a>
             </li>
-            <li><a href="/blog">Blog</a></li>
+            <li><Link to='/blog' className="link">Blog</Link></li>
             <li></li>
             <li><h5>SAY HELLO</h5></li>
             <li><a href="mailto:damilareanjorin1@gmail.com">damilareanjorin1@gmail.com</a></li>

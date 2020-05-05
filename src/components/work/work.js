@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './work.scss';
 import WOW from 'wowjs';
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -15,7 +14,7 @@ class Work extends Component {
                 <Row>
                    
                     <Col md={6} sm={2}>
-                        <div className="build">
+                        <div className="build wow slideInDown">
                             <div className="article">
                                 <h1>I build & design stuff</h1>
                                 <p>Open source projects, web apps, mobile apps and experimentals.</p>
@@ -24,7 +23,7 @@ class Work extends Component {
                         </div>
                     </Col>
                     <Col md={6} sm={2}>
-                        <div className="write">
+                        <div className="write wow slideInDown">
                             <div className="article">
                                 <h1>I write articles, sometimes</h1>
                                 <p>About backend dev, frontend dev, mobile dev, dev tutorials and development</p>
