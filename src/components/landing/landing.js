@@ -3,7 +3,7 @@ import logo from '../images/dev4.svg';
 import ButtonClass from './buttons';
 import Experience from '../experience/experience';
 import Work from '../work/work';
-import Message from '../contact/contact';
+import Contact from '../contact/contact';
 import Footer from '../footer/footer';
 import WOW from 'wowjs';
 import { Container, Row, Col, Image } from 'react-bootstrap'
@@ -38,6 +38,8 @@ class Landing extends Component {
             <Experience />
 
             <Work />
+            
+            <Contact />
 
             <ScrollUpButton />
                 {/* 
