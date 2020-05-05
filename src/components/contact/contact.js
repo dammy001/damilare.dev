@@ -11,7 +11,7 @@ const Button = styled.button`
     color: white;
     font-size: 1em;
     width: 93%;
-    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    background: rgb(21, 172, 89);
     margin: 1em;
     letter-spacing: 0.1em;
     text-transform: uppercase;

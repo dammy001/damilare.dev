@@ -13,7 +13,7 @@ class Footer extends Component {
     render() {
         return <div className="footer">
             <Container>
-                <div className="wow slideInUp footer-items" data-wow-offset="70" data-wow-delay="1s">
+                <div className="wow slideInUp footer-items" data-wow-delay="0.1s">
                     <h5>Say Hello</h5>
                     <Row>
                         <Col md={4}>

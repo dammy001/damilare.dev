@@ -23,7 +23,7 @@ class Work extends Component {
                         </div>
                     </Col>
                     <Col md={6} sm={2}>
-                        <div className="write wow slideInDown">
+                        <div className="write wow slideInUp">
                             <div className="article">
                                 <h1>I write articles, sometimes</h1>
                                 <p>About backend dev, frontend dev, mobile dev, dev tutorials and development</p>

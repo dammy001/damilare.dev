@@ -18,7 +18,7 @@ class Experience extends Component {
             <Container fluid>
                 <Row>
                     <Col md={5}>
-                        <div className="wow flipInX" data-wow-offset="80" data-wow-delay="1s">
+                        <div className="wow flipInX">
                             <div className="exp-heading">  
                                 <h3>Over the past 2 years,</h3> 
                                 <p className="description">
@@ -38,7 +38,7 @@ class Experience extends Component {
                     </Col>
                     <Col md={2}></Col>
 
-                    <Col md={5} sm={3}>
+                    <Col md={5} sm={4}>
                         <Container>
                             <Row>
                                 <div className="recent">

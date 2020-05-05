@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
 import { Navbar, Button, Nav } from 'react-bootstrap'
-import { Link, Redirect } from 'react-router-dom'
 
 const Bounce = styled.div`animation: 2s ${keyframes `${bounce}`}`;
 

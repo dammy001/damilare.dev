@@ -327,31 +327,32 @@ $Juicy-Grape-3-hex: #7638C2;
 
   @media (max-width: 640px){
     .mainpage {
-        .heading{          
-            h3{
-                font-size: 1em;
-                margin-left: -1.5em;
-                text-align: center;
-            }
+        .heading{ 
 
-            span {
-                color: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+            h3{
+                font-size: 1.8em !important;
+                margin-left: -1.5em;
+                text-align: left;
+                line-height: 2.4rem;
             }
 
             p {
                 margin-left: -3.5em;
+                font-size: 1em !important;
             }     
         }
         .image {
-            margin-top: -2em;
+            margin-top: 0.1em !important;
         }
         
         .btn-group{
-            width: 100%;
-
+            width: 100% !important;
+            margin-top: 1em !important;
+            justify-content: center !important;
+            margin-left: -3em !important;
             .getstarted {
                 padding: 1px;
-                width: 50%;
+                width: 50% !important;
             }
         }
     }
@@ -403,7 +404,30 @@ $Juicy-Grape-3-hex: #7638C2;
 
 @media (max-width: 640px){
     .experience {
-        min-height: 640px;
+        min-height: 680px !important;
+        border: none !important;
+
+        .exp-heading {
+            margin-left: -0.3em;
+            h3{
+                font-size: 2em;
+            }
+            .description {
+                font-size: 1em;
+            }
+        }
+
+        .recent {
+            margin-top: 1em;
+            display: inline-flex;
+            justify-content: center !important;
+            .imagename {
+                width: 3em;
+                margin-left: 3em;
+                margin-bottom: 1.5em;
+                
+            }
+        }
     }
 }
 
@@ -414,7 +438,7 @@ $Juicy-Grape-3-hex: #7638C2;
 .work {
   width: 100%;
   min-height: 605px;
-  background-color: #212121;
+  background-color: #000;
 
   .build {
           box-sizing: border-box;
@@ -454,8 +478,8 @@ $Juicy-Grape-3-hex: #7638C2;
                   margin-top: 2.5em;
                   padding: 15px;
                   width: 50%;
-                  background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
-                  border: none;
+                  border: 1px solid rgb(21, 172, 89);
+                  background: rgb(21, 172, 89);
                   border-radius: 0px;
                   color: #ffffff;
                   letter-spacing: 0.1em;
@@ -465,7 +489,7 @@ $Juicy-Grape-3-hex: #7638C2;
 
                   &:hover {
                       transform-origin: left;
-                      background-color: #4831d4;
+                      background-color: rgb(21, 172, 89);
                       color: #ffffff;
                       border: none;
                       -webkit-font-smoothing: antialiased !important;
@@ -506,9 +530,9 @@ $Juicy-Grape-3-hex: #7638C2;
                   padding: 15px;
                   width: 50%;
                   background-color: transparent;
-                  border: 1px solid #4831d4;
+                  border: 1px solid rgb(21, 172, 89);
                   border-radius: 0px;
-                  color: #4831d4;
+                  color: #fff;
                   letter-spacing: 0.1em;
                   text-transform: uppercase;
                   font-size: 0.9em;
@@ -516,7 +540,7 @@ $Juicy-Grape-3-hex: #7638C2;
 
                   &:hover {
                       transform-origin: left;
-                      background-color: #4831d4;
+                      background-color: rgb(21, 172, 89);
                       color: #ffffff;
                       border: none;
                   }
@@ -560,7 +584,7 @@ $Juicy-Grape-3-hex: #7638C2;
                   margin-top: 1em;
                   padding: 15px;
                   width: 100%;
-                  background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+                  background: rgb(21, 172, 89);
                   border: none;
                   border-radius: 0px;
                   color: #ffffff;
@@ -570,7 +594,7 @@ $Juicy-Grape-3-hex: #7638C2;
                   box-sizing: border-box;
                   &:hover {
                       transform-origin: left;
-                      background-color: #4831d4;
+                      background-color: rgb(21, 172, 89);
                       color: #ffffff;
                       border: none;
                   }
@@ -595,7 +619,7 @@ $Juicy-Grape-3-hex: #7638C2;
                       font-weight: 600;
                       line-height: 1.1;
                       letter-spacing: -0.03em;
-                      color: #4831d4;
+                      color: #fff;
                       transition: transform 0.5s, opacity 0.2s;
                       margin-top: -0.8em;
                   }
@@ -607,18 +631,18 @@ $Juicy-Grape-3-hex: #7638C2;
                   }
                   .send {
                   margin-top: 0.5em;
-                  padding: 10px;
+                  padding: 15px;
                   width: 100%;
                   background-color: transparent;
-                  border: 1px solid #4831d4;
-                  color: #4831d4;
+                  border: 1px solid rgb(21, 172, 89);
+                  color: white;
                   letter-spacing: 0.1em;
                   text-transform: uppercase;
                   font-size: 0.6em;
                   box-sizing: border-box;
                       &:hover {
                           transform-origin: left;
-                          background-color: #4831d4;
+                          background-color: rgb(21, 172, 89);
                           color: #ffffff;
                           border: none;
                       }
