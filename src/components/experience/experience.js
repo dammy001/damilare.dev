@@ -18,7 +18,7 @@ class Experience extends Component {
             <Container fluid>
                 <Row>
                     <Col md={5}>
-                        <div className="wow flipInX">
+                        <div className="wow slideInDown">
                             <div className="exp-heading">  
                                 <h3>Over the past 2 years,</h3> 
                                 <p className="description">

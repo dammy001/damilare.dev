@@ -18,7 +18,7 @@ class Footer extends Component {
                     <Row>
                         <Col md={4}>
                         <ul>
-                            <li>damilareanjorin1@gmail.com</li>
+                            <li><a href="mailto:damilareanjorin1@gmail.com" style={{color: '#fff'}}>damilareanjorin1@gmail.com</a></li>
                             <li>t.me/damilare</li>
                         </ul>
                         </Col>

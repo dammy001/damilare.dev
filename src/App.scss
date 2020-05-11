@@ -338,7 +338,7 @@ $Juicy-Grape-3-hex: #7638C2;
 
             p {
                 margin-left: -3.5em;
-                font-size: 1em !important;
+                font-size: 0.75em !important;
             }     
         }
         .image {
@@ -786,6 +786,10 @@ $Juicy-Grape-3-hex: #7638C2;
                     text-decoration: none;
                     color: #fff;
                 }
+                &:hover {
+                    color: rgb(21, 172, 89);
+                    transition: transform 0.5s, opacity 0.2s;
+                }
             }
         }
 
@@ -851,6 +855,38 @@ $Juicy-Grape-3-hex: #7638C2;
             }
         }
     }
+
+    @media (max-width: 640px) {
+        .footer-items{
+            h5 {
+                text-transform: uppercase;
+                font-size: 20px;
+                
+            }
+
+            ul {
+                font-size: 16px;
+                list-style-type: none;
+                padding: 10px;
+                line-height: 2.5em;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #fff;
+    
+                & li {
+                    text-decoration-style: none;
+                    .link {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                    &:hover{
+                        color: rgb(21, 172, 89);
+                        transition: 0.5s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 //Blog Section

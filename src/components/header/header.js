@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
-import { Navbar, Button, Nav } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import HamburgerMenu from 'react-hamburger-menu'
 
 const Bounce = styled.div`animation: 2s ${keyframes `${bounce}`}`;
 
@@ -30,7 +32,17 @@ class Header extends Component {
             </Nav>
             <Nav>
               <div className="nav-btns">
-                <Button className="aside-btn" onClick={this.toggleClass}><i className="fa fa-bars"></i></Button>
+              <HamburgerMenu
+              isOpen={this.state.active}
+              menuClicked={this.toggleClass.bind(this)}
+              width={28}
+              height={20}
+              strokeWidth={2}
+              rotate={0}
+              color='white'
+              borderRadius={0}
+              animationDuration={0.5}
+              />
               </div> 
             </Nav>
         </Navbar>
@@ -56,7 +68,7 @@ class Header extends Component {
             </li>
   
           </ul>
-            <button onClick={ this.toggleClass } className={ this.state.active===true ? 'nav-close nav-aside-close' : null }><span></span></button>
+      
         </div>
         
         </div>
