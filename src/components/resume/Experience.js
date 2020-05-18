@@ -4,7 +4,7 @@ import data from '../data/resume'
 class Experience extends Component {
     render() {
         return (
-            <div>
+            <div className="ex_row">
             {
                 data.Experiences.map((experience, i) => {
                     return (
@@ -12,7 +12,7 @@ class Experience extends Component {
                             <div>
                                 <div>
                                     <div>
-                                        <a href={experience.url}> {experience.companyName} </a>
+                                        <a href={experience.url} className="company"> <h5>{experience.companyName}</h5> </a>
                                     </div>
                                         { experience.roles.map((role, i) => { 
                                             return <div key={i}>

@@ -262,7 +262,7 @@ $Juicy-Grape-3-hex: #7638C2;
     padding: 0;
     .header{
         background-color: #222;
-        min-height: 650px;
+        min-height: 657px;
         width: 100%;
 
         .heading {
@@ -270,7 +270,7 @@ $Juicy-Grape-3-hex: #7638C2;
             margin-left: 5em;
             h3 {
                 font-size: 2.9em;
-                color: #ffffff;
+                color: rgb(21, 172, 89);
                 font-weight: 900;
                 font-family: Arial, Helvetica, sans-serif;
                 text-transform: uppercase; 
@@ -293,15 +293,15 @@ $Juicy-Grape-3-hex: #7638C2;
                     font-weight: 500;
                     font-size: 16px;
                     background-color: transparent;
-                    border: 1px solid #4831d4;
+                    border: 1px solid rgb(21, 172, 89);
                     border-radius: 0px;
-                    color: #4831d4;
+                    color: #fff;
                     letter-spacing: 0.1em;
                     cursor: pointer; 
 
                     &:hover {
                         transform-origin: left;
-                        background-color: #4831d4;
+                        background-color: rgb(21, 172, 89);
                         color: #ffffff;
                         border: none;
                     }
@@ -310,9 +310,7 @@ $Juicy-Grape-3-hex: #7638C2;
                     padding: 5px;
                     font-weight: 500;
                     font-size: 16px;
-                    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
-                    //background: #ec008c;
-                    background-size: 300% 100%;
+                    background: rgb(21, 172, 89);
                     font-size: 16px;
                     padding: 15px 20px;
                     border: none;
@@ -351,8 +349,13 @@ $Juicy-Grape-3-hex: #7638C2;
             justify-content: center !important;
             margin-left: -3em !important;
             .getstarted {
-                padding: 1px;
-                width: 50% !important;
+                padding: .7em !important;
+                width: 2em !important;
+            }
+            .learn {
+                padding: .7em !important;
+                width: 2em !important;
+                color: rgb(21, 172, 89) !important;
             }
         }
     }
@@ -368,6 +371,10 @@ $Juicy-Grape-3-hex: #7638C2;
     .exp-heading{
         margin-top: 5em;
         margin-left: 5em;
+
+        .head {
+            color: rgb(21, 172, 89);
+        }
 
         h3 {
             font-size: 2.2em;
@@ -452,9 +459,8 @@ $Juicy-Grape-3-hex: #7638C2;
           margin-bottom: 4em;
           
           & :hover {
-              -webkit-transform: scale(1.0);
-              -ms-transform: scale(1.0);
-              transform: scale(1.0);
+            transform: scale(1.05);
+            transition: transform .8s ease-in-out;
           }
 
           .article{
@@ -504,9 +510,13 @@ $Juicy-Grape-3-hex: #7638C2;
           display: flex;
           margin-top: 5em;
           list-style-type: none;
-          //margin-left: 5em;
           background-color: transparent;
           padding: 4em;
+
+          &:hover {
+            transform: scale(1.04);
+            transition: transform .8s ease-in-out;
+          }
           
           .article{
               h1 {

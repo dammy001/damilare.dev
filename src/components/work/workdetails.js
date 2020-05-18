@@ -35,7 +35,8 @@ class Workdetails extends Component {
                                 <img className="card-img-top" src={angular} alt="damilaredev"/>
                                 <div className="card-body">
                                     <h4>Personal Website</h4>
-                                    <p className="card-text"><Link className="card-text" to={"https://damilare.dev"}>Damilare.dev</Link></p>
+                                    <p className="card-text"><a className="card-text" href="https://damilare.dev"
+                                     target="_blank" rel="noopener noreferrer">Damilare.dev</a></p>
                                 </div>
                             </div>
                             </Col>
@@ -44,8 +45,9 @@ class Workdetails extends Component {
                             <div className="card"> 
                                 <img className="card-img-top" src={angular} alt="damilaredev"/>
                                 <div className="card-body">
-                                    <h4>Personal Website</h4>
-                                    <p className="card-text"><Link className="card-text" to={"https://damilare.dev"}>Damilare.dev</Link></p>
+                                    <h4>Worshipper In Me</h4>
+                                    <p className="card-text"><a className="card-text" href="https://worshipperinmetv.com"
+                                     rel="noopener noreferrer" target="_blank">Worshipper In Me</a></p>
                                 </div>
                             </div>
                             </Col>
@@ -54,8 +56,8 @@ class Workdetails extends Component {
                             <div className="card"> 
                                 <img className="card-img-top" src={angular} alt="damilaredev"/>
                                 <div className="card-body">
-                                    <h4>Personal Website</h4>
-                                    <p className="card-text"><Link className="card-text" to={"https://damilare.dev"}>Damilare.dev</Link></p>
+                                    <h4>Chore APIs</h4>
+                                    <p className="card-text"><a className="card-text" href="#">Chore APIs Documentation</a></p>
                                 </div>
                             </div>
                             </Col>
@@ -66,8 +68,18 @@ class Workdetails extends Component {
                             <div className="card"> 
                                 <img className="card-img-top" src={angular} alt="damilaredev"/>
                                 <div className="card-body">
-                                    <h4>Personal Website</h4>
-                                    <p className="card-text"><Link className="card-text" to={"https://damilare.dev"}>Damilare.dev</Link></p>
+                                    <h4>MyprojectNG</h4>
+                                    <p className="card-text"><a className="card-text" href="#">Still Under Development</a></p>
+                                </div>
+                            </div>
+                            </Col>
+
+                            <Col md={4} sm={1}>
+                            <div className="card"> 
+                                <img className="card-img-top" src={angular} alt="damilaredev"/>
+                                <div className="card-body">
+                                    <h4>Booke APIs</h4>
+                                    <p className="card-text"><a className="card-text" href="#">Booke APIs Documentation</a></p>
                                 </div>
                             </div>
                             </Col>

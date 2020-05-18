@@ -18,9 +18,9 @@ class Experience extends Component {
             <Container fluid>
                 <Row>
                     <Col md={5}>
-                        <div className="wow slideInDown">
+                        <div className="wow slideInUp">
                             <div className="exp-heading">  
-                                <h3>Over the past 2 years,</h3> 
+                                <h3 className="head">Over the past 2 years,</h3> 
                                 <p className="description">
                                 I've built projects ranging from basic websites to complex solutions using web technologies with focus on fast, elegant and responsive.
                                 </p>

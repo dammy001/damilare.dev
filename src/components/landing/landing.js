@@ -20,7 +20,7 @@ class Landing extends Component {
             <Container fluid className="header">
                 <Row>
                     <Col md={6} sm={4}>
-                        <div className="wow slideInUp">
+                        <div>
                             <div className="heading">  
                                 <h3><span>Fullstack</span> Web Developer.</h3>
                                 <p className="description">Damilare Anjorin is an energetic, creative, and result oriented fullstack developer with proven track records based in Lagos, Nigeria.</p>                                

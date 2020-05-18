@@ -14,7 +14,7 @@ class Work extends Component {
                 <Row>
                    
                     <Col md={6} sm={2}>
-                        <div className="build wow slideInDown">
+                        <div className="build wow slideInUp">
                             <div className="article">
                                 <h1>I build & design stuff</h1>
                                 <p>Open source projects, web apps, mobile apps and experimentals.</p>

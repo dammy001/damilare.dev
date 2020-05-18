@@ -70,57 +70,27 @@
         {
           "Area": "Core Technologies",
           "Skillset": [
-            {
-              "name": "Javascript"
-            },
-            {
-              "name": "HTML"
-            },
-            {
-              "name": "CSS"
-            },
-            {
-              "name": "React"
-            },
-            {
-              "name": "Laravel"
-            },
-            {
-              "name": "Nodejs"
-            },
-            {
-              "name": "Mysql/Postgrel"
-            },
-            {
-              "name": "Golang"
-            },
-            {
-              "name": "MongoDB"
-            },
-            {
-              "name": "PHP"
-            },
-            {
-              "name": "RestAPIs"
-            },
-            {
-              "name": "SASS"
-            },
-            {
-              "name": "Travis CI"
-            },
-            {
-              "name": "GIT"
-            }
-            
+              "Javascript",
+              "HTML",
+              "CSS",
+              "PHP",
+              "Laravel",
+              "Nodejs",
+              "Golang",
+              "SASS",
+              "React",
+              "Redis",
+              "Mysql/Postgrel",
+              "MongoDB",
+              "Rest APIs",
+              "Travis CI",
+              "GIT"
           ]
         },
         {
             "Area": "Others: ",
             "skillset": [
-                {
-                  "name": "Perfomance Optimization"
-                }
+                "Perfomance Optimization"
             ]
         }
     ]

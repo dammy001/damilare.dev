@@ -22,13 +22,13 @@ class Resume extends Component {
                                         <Row>
                                             <Col md={3}>
                                                 <Row>
-                                                    <p><a href={basicsInfo.website}>damilare.dev</a></p>
+                                                    <p><a href={basicsInfo.website} className="company">damilare.dev</a></p>
                                                 </Row>
                                                 <Row>
                                                     <p>{basicsInfo.location}</p>
                                                 </Row>
                                                  <Row>
-                                                    <p><a href="mailto:damilareanjorin1@gmail.com">{basicsInfo.mail}</a></p>
+                                                    <p><a href="mailto:damilareanjorin1@gmail.com" className="company">{basicsInfo.mail}</a></p>
                                                  </Row>
 
                                                  <Row>
@@ -49,6 +49,8 @@ class Resume extends Component {
                                                 </Row>
                                                 
                                                 <Row className="expe">
+                                                    <h4 className="des">Experience</h4>
+                                                    
                                                     <Experience />
                                                 </Row>
                                             </Col>
