@@ -111,7 +111,7 @@ class Message extends Component {
                         </div>
 
                         
-                        <div ClassName="formcontact" style={{marginTop: '4em'}}>
+                        <div className="formcontact" style={{marginTop: '4em'}}>
                             
                         <Form>
                            <Form.Row>
