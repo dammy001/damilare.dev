@@ -50,9 +50,7 @@ class Header extends Component {
       <div className={this.state.active===true ? 'nav-aside active' : 'nav-aside'}>
           <ul className="nav-aside-menu">
             <li><Link to='/work' className="link">Work</Link></li>
-            <li><a href="https://gitconnected.com/dammy001/resume" target="_blank" 
-            rel="noopener noreferrer">Resume</a>
-            </li>
+            <li><Link to="/resume">Resume</Link></li>
             <li><Link to='/blog' className="link">Blog</Link></li>
             <li></li>
             <li><h5>SAY HELLO</h5></li>

@@ -1,0 +1,96 @@
+{
+    "basics": {
+        "name": "Damilare Anjorin",
+        "role": "FullStack Web Developer",
+        "website": "https://damilare-dev.netlify.app",
+        "location": "Lagos, Nigeria",
+        "mail": "damilareanjorin1@gmail.com",
+        "description": "Intermediate Fullstack Developer with 2 years of experience in building scalable products using web technologies"
+    },
+    "Experiences": [
+      {
+        "companyName": "Chore Technologies",
+        "url": "", 
+        "roles": [
+          {
+            "title": "Backend Engineer",
+            "description": "Working as a backend engineer to develop server-side web application and document APIs",
+            "startDate": "March 2020",
+            "endDate": "",
+            "location": "Lagos, Nigeria"
+          } 
+        ],
+        "impacts": [
+            "Attend regular meeting with the front end team to expose weaknesses and problems.",
+            "Write the web services and APIs used by front-end developers and mobile application developers.",
+            "Responsible for server-side web application logic and integration of the work front-end developers do",
+            "Responsible for creating, maintaining, testing, and debugging the entire back-end"
+        ]
+      },
+        {
+          "companyName": "Worshipper In Me",
+          "url": "https://worshipperinmetv.com", 
+          "roles": [
+            {
+              "title": "Full Stack Developer",
+              "description": "I developed the frontend and backend infrastructure and functionality for Worshipper in me new  app powered by Laravel.",
+              "startDate": "November 2019",
+              "endDate": "January 2020",
+              "location": "Lagos, Nigeria"
+            } 
+          ],
+          "impacts": [
+              "Managed a team to develop worshipper in me web application using PHP/Laravel and React.",
+              "Participated in the peer-reviews of solution designs and related code.",
+              "Worked on the server side and database of the web application.",
+              "Contributed to the frontend development to ensure that there’s no error."
+          ]
+        },
+        {
+            "companyName": "Freelance Web Developer",
+            "url": "", 
+            "roles": [
+              {
+                "title": "Freelance Web Developer",
+                "description": "I worked as a freelance web developer while at the university where I developed several projects using PHP, Bootstrap, Mysql, JavaScript, Wordpress e.t.c",
+                "startDate": "January 2018",
+                "endDate": "December 2019",
+                "location": "Lagos, Nigeria"
+              } 
+            ],
+            "impacts": [
+                "Participated in the peer-reviews of solution designs and related code.",
+                "Worked on the server side and database of several web application."
+            ]
+          }
+    ],
+    "Skills": [
+        {
+          "Area": "Core Technologies",
+          "skillset": [
+              "Javascript",
+              "HTML",
+              "CSS",
+              "PHP",
+              "Laravel",
+              "Nodejs",
+              "Golang",
+              "SASS",
+              "React",
+              "Mysql/Postgrel",
+              "MongoDB",
+              "Rest APIs"
+          ]
+        },
+        {
+            "Area": "Others",
+            "skillset": [
+                "TDD",
+                "Travis CI",
+                "Doker",
+                "GIT",
+                "Perfomance Optimization"
+            ]
+        }
+    ]
+}

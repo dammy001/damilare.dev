@@ -691,11 +691,9 @@ $Juicy-Grape-3-hex: #7638C2;
             box-sizing: border-box;
             
             &:hover {
-                box-shadow: 1px 1px 1px 1px rgba(114, 113, 113, 0.116);
-                -moz-box-shadow: 1px 1px 1px 1px rgba(114, 113, 113, 0.116);
-                -webkit-box-shadow: 1px 1px 1px 1px rgba(114, 113, 113, 0.116);
-               transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-               -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+                transform: scale(1.05);
+                    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+                    transition: transform .3s ease-out 0s;
             }
             img {
                 padding: 2em;
