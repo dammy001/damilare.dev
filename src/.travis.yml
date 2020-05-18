@@ -7,3 +7,5 @@ cache:
 script:
   - npm run build
   - npm test
+before_install:
+  - npm ci
