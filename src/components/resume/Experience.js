@@ -18,8 +18,9 @@ class Experience extends Component {
                                             return <div key={i}>
                                                 <h5>{role.title}</h5>
                                                 <span>{role.startDate} - {role.endDate} </span><br></br>
+                                                <span>{role.type}</span><br></br>
                                                 <span>{role.location}</span>
-                                                <p>{role.description}</p>
+                                                <p className="ex_des">{role.description}</p>
                                             </div>
                                         }) }
                                         

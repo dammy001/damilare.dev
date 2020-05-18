@@ -14,9 +14,10 @@
         "roles": [
           {
             "title": "Backend Engineer",
-            "description": "Working as a backend engineer to develop server-side web application and document APIs",
+            "description": "Working as a backend engineer to develop server-side application interface and testing ",
             "startDate": "March 2020",
             "endDate": "",
+            "type": "Remote",
             "location": "Lagos, Nigeria"
           } 
         ],
@@ -32,10 +33,11 @@
           "url": "https://worshipperinmetv.com", 
           "roles": [
             {
-              "title": "Full Stack Developer",
+              "title": "Full Stack Web Developer",
               "description": "I developed the frontend and backend infrastructure and functionality for Worshipper in me new  app powered by Laravel.",
               "startDate": "November 2019",
               "endDate": "January 2020",
+              "type": "remote",
               "location": "Lagos, Nigeria"
             } 
           ],
@@ -67,29 +69,58 @@
     "Skills": [
         {
           "Area": "Core Technologies",
-          "skillset": [
-              "Javascript",
-              "HTML",
-              "CSS",
-              "PHP",
-              "Laravel",
-              "Nodejs",
-              "Golang",
-              "SASS",
-              "React",
-              "Mysql/Postgrel",
-              "MongoDB",
-              "Rest APIs"
+          "Skillset": [
+            {
+              "name": "Javascript"
+            },
+            {
+              "name": "HTML"
+            },
+            {
+              "name": "CSS"
+            },
+            {
+              "name": "React"
+            },
+            {
+              "name": "Laravel"
+            },
+            {
+              "name": "Nodejs"
+            },
+            {
+              "name": "Mysql/Postgrel"
+            },
+            {
+              "name": "Golang"
+            },
+            {
+              "name": "MongoDB"
+            },
+            {
+              "name": "PHP"
+            },
+            {
+              "name": "RestAPIs"
+            },
+            {
+              "name": "SASS"
+            },
+            {
+              "name": "Travis CI"
+            },
+            {
+              "name": "GIT"
+            }
+            
           ]
         },
         {
-            "Area": "Others",
+            "Area": "Others: ",
             "skillset": [
-                "TDD",
-                "Travis CI",
-                "Doker",
-                "GIT",
-                "Perfomance Optimization"
+                {
+                  "name": "Perfomance Optimization"
+                }
             ]
         }
     ]

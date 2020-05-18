@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Footer from '../footer/footer';
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import data from '../data/resume'
 import Experience from './Experience'
+//import Skill from './Skill'
 import './resume.scss';
 
 const basicsInfo = data.basics;
@@ -29,6 +29,10 @@ class Resume extends Component {
                                                 </Row>
                                                  <Row>
                                                     <p><a href="mailto:damilareanjorin1@gmail.com">{basicsInfo.mail}</a></p>
+                                                 </Row>
+
+                                                 <Row>
+                                                   
                                                  </Row>
                                                 
                                             </Col>
