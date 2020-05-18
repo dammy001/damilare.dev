@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import HamburgerMenu from 'react-hamburger-menu'
 
@@ -21,7 +21,7 @@ class Header extends Component {
   toggleClass = () => {
     const currentState = this.state.active;
     this.setState({ active: !currentState });
-}
+  }
 
     render() {
         return (<div className="header">
@@ -58,10 +58,10 @@ class Header extends Component {
             <li><a href="facebook.com">t.me/damilare</a></li>
             <li>
                 <div className="btn-group">
-                  <button type="button" className="btn btn-primary facebook"><i className="fa fa-facebook"></i></button>
-                  <button type="button" className="btn btn-primary linkedin"><i className="fa fa-linkedin"></i></button>
-                  <button type="button" className="btn btn-primary twitter"><i className="fa fa-twitter"></i></button>
-                  <button type="button" className="btn btn-primary github"><i className="fa fa-github"></i></button>
+                  <Button href={`https://facebook.com/Damilare-Anjorin`} className="btn btn-primary facebook"><i className="fa fa-facebook"></i></Button>
+                  <Button href={`https://www.linkedin.com/in/anjorin-damilare-652023162`} className="btn btn-primary linkedin"><i className="fa fa-linkedin"></i></Button>
+                  <Button href={`https://twitter.com/laravel00`} className="btn btn-primary twitter"><i className="fa fa-twitter"></i></Button>
+                  <Button href={`https://github.com/dammy001`} className="btn btn-primary github"><i className="fa fa-github"></i></Button>
                 </div> 
             </li>
   

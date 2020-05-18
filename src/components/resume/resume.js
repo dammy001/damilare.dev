@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import data from '../data/resume'
 import Experience from './Experience'
-//import Skill from './Skill'
+import Skill from './Skill'
 import './resume.scss';
 
 const basicsInfo = data.basics;
@@ -32,7 +32,26 @@ class Resume extends Component {
                                                  </Row>
 
                                                  <Row>
-                                                   
+                                                 
+                                                 <h5>Core Technologies</h5>
+                                                   <ul>
+                                                        <li>HTML</li>
+                                                        <li>CSS</li>
+                                                        <li>Javascript</li>
+                                                        <li>React</li>
+                                                        <li>PHP</li>
+                                                        <li>Laravel</li>
+                                                        <li>Nodejs</li>
+                                                        <li>Golang</li>
+                                                        <li>SASS</li>
+                                                        <li>GIT</li>
+                                                        <li>Redis</li>
+                                                        <li>Travis CI</li>
+                                                        <li>Typescript</li>
+                                                        <li>Rest APIs</li>
+                                                        <li>Mysql/Postgrel</li>
+                                                        <li>MongoDB</li>
+                                                   </ul>
                                                  </Row>
                                                 
                                             </Col>
