@@ -18,7 +18,7 @@
     "react-dom": "16.13.0",
     "react-hamburger-menu": "1.2.1",
     "react-router-dom": "5.3.0",
-    "react-scripts": "3.4.4",
+    "react-scripts": "4.0.0",
     "react-scroll-up-button": "1.6.4",
     "styled-components": "5.3.3",
     "typescript": "3.8.3",
