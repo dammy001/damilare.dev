@@ -6,7 +6,7 @@
     "@testing-library/react": "12.1.5",
     "@testing-library/user-event": "13.5.0",
     "axios": "0.27.2",
-    "bootstrap": "5.1.3",
+    "bootstrap": "5.3.3",
     "font-awesome": "4.7.0",
     "indicative": "7.4.4",
     "jquery": "3.6.0",
